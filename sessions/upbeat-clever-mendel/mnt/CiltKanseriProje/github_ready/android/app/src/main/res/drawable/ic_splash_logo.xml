@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MelonomScanner — Splash Logo
+  Launcher foreground'unun yüksek-detaylı versiyonu (240dp render edilecek)
+  Beyaz fill (teal background üstünde gösterilir)
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Dış tarama halkası (kesik daire — 4 ark segment) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M120,30 A90,90 0 0,1 210,120" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,120 A90,90 0 0,1 120,30" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M210,120 A90,90 0 0,1 120,210" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M120,210 A90,90 0 0,1 30,120" />
+
+    <!-- Sol-üst tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M62,82 L62,62 L82,62" />
+
+    <!-- Sağ-üst tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M158,62 L178,62 L178,82" />
+
+    <!-- Sol-alt tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M62,158 L62,178 L82,178" />
+
+    <!-- Sağ-alt tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M178,158 L178,178 L158,178" />
+
+    <!-- Merkez: asimetrik lezyon (büyük versiyon) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M108,92
+                          C92,96 84,108 88,124
+                          C92,140 106,148 122,144
+                          C138,140 146,124 142,108
+                          C138,94 124,88 108,92 Z" />
+
+    <!-- Lezyon içinde pigment varyasyonu 1 -->
+    <path
+        android:fillColor="#064E4A"
+        android:pathData="M108,116 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 Z" />
+
+    <!-- Lezyon içinde pigment varyasyonu 2 -->
+    <path
+        android:fillColor="#064E4A"
+        android:pathData="M126,130 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 Z" />
+
+    <!-- Lezyon içinde pigment varyasyonu 3 (küçük) -->
+    <path
+        android:fillColor="#064E4A"
+        android:pathData="M118,108 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z" />
+
+</vector>

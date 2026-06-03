@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand: teal-mavi (sağlık teması, güven hissi) -->
+    <color name="brand_primary">#0F766E</color>
+    <color name="brand_primary_dark">#064E4A</color>
+    <color name="brand_accent">#14B8A6</color>
+
+    <!-- Risk seviyeleri -->
+    <color name="risk_low">#10B981</color>
+    <color name="risk_medium">#F59E0B</color>
+    <color name="risk_high">#EF4444</color>
+    <color name="risk_critical">#991B1B</color>
+
+    <!-- Splash arka planı -->
+    <color name="splash_background">#0F766E</color>
+</resources>

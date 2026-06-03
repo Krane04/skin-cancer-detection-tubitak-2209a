@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Melonom Scanner</string>
+    <string name="app_tagline">Cilt Lezyonu Ön Değerlendirme</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Cebinizdeki ön değerlendirme</string>
+    <string name="onboarding_desc_1">Dermoskopik görüntü ve kişisel bilgileriniz birlikte kullanılarak cilt lezyonunuzu analiz ederiz.</string>
+    <string name="onboarding_title_2">%100 Cihazda Çalışır</string>
+    <string name="onboarding_desc_2">Fotoğraflarınız ve verileriniz asla cihazdan çıkmaz. İnternet bağlantısı gerekmez.</string>
+    <string name="onboarding_title_3">Tanı değil, yönlendirme</string>
+    <string name="onboarding_desc_3">Bu uygulama tıbbi tanı koymaz. Tüm şüpheli bulgularda dermatoloğa başvurun.</string>
+    <string name="onboarding_continue">Devam et</string>
+    <string name="onboarding_start">Başla</string>
+    <string name="onboarding_skip">Atla</string>
+
+    <!-- Consent -->
+    <string name="consent_title">Aydınlatma ve Onay</string>
+    <string name="consent_body">• Tüm görüntüler ve metadata cihazınızda, şifreli olarak saklanır.\n• Verileriniz hiçbir sunucuya gönderilmez.\n• Bu uygulama CE/FDA onaylı bir tıbbi cihaz değildir.\n• Sonuçlar ön değerlendirme niteliğindedir; kesin tanı yerine geçmez.\n• Yüksek risk bulgularında mutlaka bir dermatoloğa başvurun.\n• Verilerinizi istediğiniz an Ayarlar → Verilerimi Sil yolundan silebilirsiniz (KVKK md. 11).</string>
+    <string name="consent_accept">Okudum, onaylıyorum</string>
+    <string name="consent_decline">Reddet</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Merhaba</string>
+    <string name="home_subtitle">Bugün cildinize 1 dakika ayırın</string>
+    <string name="home_new_scan">Yeni Tarama</string>
+    <string name="home_new_scan_desc">Lezyon fotoğrafı çekin ve analiz edin</string>
+    <string name="home_history">Geçmişim</string>
+    <string name="home_history_desc">Önceki taramaları görüntüleyin</string>
+    <string name="home_abcde">ABCDE Rehberi</string>
+    <string name="home_abcde_desc">Şüpheli beni nasıl tanırsınız?</string>
+    <string name="home_settings">Ayarlar</string>
+    <string name="home_settings_desc">Gizlilik, kilit ve dil</string>
+    <string name="home_stats_scans">Toplam Tarama</string>
+    <string name="home_stats_lesions">Takipteki Lezyon</string>
+    <string name="home_tip_title">Bugünün ipucu</string>
+    <string name="home_tip_body">Melanomlar genellikle asimetriktir. Bir beninizin sol ve sağ yarısı birbirine benzemiyorsa dikkat edin.</string>
+
+    <!-- Metadata -->
+    <string name="metadata_title">Bilgileriniz</string>
+    <string name="metadata_subtitle">Bu bilgiler doğruluğu artırmak için modele verilir. Cihazınızdan çıkmaz.</string>
+    <string name="metadata_age">Yaşınız</string>
+    <string name="metadata_age_hint">Örn. 32</string>
+    <string name="metadata_sex">Cinsiyet</string>
+    <string name="metadata_sex_male">Erkek</string>
+    <string name="metadata_sex_female">Kadın</string>
+    <string name="metadata_sex_unknown">Belirtmek istemiyorum</string>
+    <string name="metadata_skin_type">Cilt Tipi (Fitzpatrick)</string>
+    <string name="metadata_skin_type_hint">Güneşte nasıl tepki verirsiniz?</string>
+    <string name="metadata_location">Lezyon Bölgesi</string>
+    <string name="metadata_location_hint">Vücut haritasında dokunarak seçin</string>
+    <string name="metadata_continue">Devam et</string>
+
+    <!-- Body regions -->
+    <string name="region_head">Baş / Yüz</string>
+    <string name="region_neck">Boyun</string>
+    <string name="region_chest">Göğüs</string>
+    <string name="region_abdomen">Karın</string>
+    <string name="region_back_upper">Sırt (Üst)</string>
+    <string name="region_back_lower">Sırt (Alt)</string>
+    <string name="region_arm_upper">Üst Kol</string>
+    <string name="region_arm_lower">Ön Kol</string>
+    <string name="region_hand">El / Parmak</string>
+    <string name="region_leg_upper">Uyluk</string>
+    <string name="region_leg_lower">Baldır</string>
+    <string name="region_foot">Ayak</string>
+    <string name="region_scalp">Saçlı Deri</string>
+    <string name="region_genital">Genital / Perine</string>
+
+    <!-- Fitzpatrick -->
+    <string name="fitz_1">Tip I — Çok açık, daima yanar</string>
+    <string name="fitz_2">Tip II — Açık, genelde yanar</string>
+    <string name="fitz_3">Tip III — Orta, bazen yanar</string>
+    <string name="fitz_4">Tip IV — Zeytin, nadiren yanar</string>
+    <string name="fitz_5">Tip V — Esmer, çok nadir yanar</string>
+    <string name="fitz_6">Tip VI — Koyu, hiç yanmaz</string>
+
+    <!-- Camera -->
+    <string name="camera_title">Lezyonu tarayın</string>
+    <string name="camera_hint_center">Lezyonu çerçevenin ortasına alın</string>
+    <string name="camera_hint_light">Daha iyi ışık gerekiyor</string>
+    <string name="camera_hint_blur">Fotoğraf bulanık — cihazı sabit tutun</string>
+    <string name="camera_hint_too_far">Daha yakın çekim yapın</string>
+    <string name="camera_hint_ok">Harika! Analiz için dokunun</string>
+    <string name="camera_capture">Fotoğrafı Analiz Et</string>
+    <string name="camera_no_permission">Kamera izni gerekli. Ayarlardan izin verin.</string>
+    <string name="camera_grant_permission">İzin Ver</string>
+
+    <!-- Result -->
+    <string name="result_title">Sonuç</string>
+    <string name="result_primary">Ana Bulgu</string>
+    <string name="result_confidence">Güven</string>
+    <string name="result_risk_level">Risk Seviyesi</string>
+    <string name="result_risk_low">Düşük</string>
+    <string name="result_risk_medium">Orta</string>
+    <string name="result_risk_high">Yüksek</string>
+    <string name="result_risk_very_high">Kritik</string>
+    <string name="result_recommendation">Öneri</string>
+    <string name="result_rec_low">Bu lezyon iyi huylu görünmektedir. 6 ayda bir rutin kontrol önerilir.</string>
+    <string name="result_rec_medium">Bulgu belirsiz. Önümüzdeki 1-2 ay içinde dermatoloğa danışmanız önerilir.</string>
+    <string name="result_rec_high">Yüksek riskli bulgular var. Önümüzdeki hafta içinde dermatoloğa başvurun.</string>
+    <string name="result_rec_very_high">Kritik bulgular. En kısa sürede (48 saat) bir dermatoloğa başvurun.</string>
+    <string name="result_why">Model Neden Böyle Dedi?</string>
+    <string name="result_save">Kaydet ve Takibe Al</string>
+    <string name="result_share">PDF Rapor Oluştur</string>
+    <string name="result_new_scan">Yeni Tarama</string>
+    <string name="result_disclaimer">Bu sonuç kesin tanı değildir. Şüphe durumunda mutlaka bir dermatoloğa başvurun.</string>
+
+    <!-- History -->
+    <string name="history_title">Geçmişim</string>
+    <string name="history_empty">Henüz kayıtlı tarama yok</string>
+    <string name="history_empty_action">İlk taramanızı başlatın</string>
+    <string name="history_filter_all">Tümü</string>
+    <string name="history_filter_flagged">Takipteki</string>
+    <string name="history_sort_newest">En yeni</string>
+
+    <!-- ABCDE -->
+    <string name="abcde_title">ABCDE Kuralı</string>
+    <string name="abcde_subtitle">Şüpheli beni nasıl tanıyabilirsiniz</string>
+    <string name="abcde_a_title">A — Asimetri</string>
+    <string name="abcde_a_desc">Benin bir yarısı diğerine benzemiyorsa.</string>
+    <string name="abcde_b_title">B — Kenar (Border)</string>
+    <string name="abcde_b_desc">Kenarları düzensiz, çentikli veya bulanık.</string>
+    <string name="abcde_c_title">C — Renk (Color)</string>
+    <string name="abcde_c_desc">Farklı tonlar (kahve, siyah, kırmızı, mavi, beyaz).</string>
+    <string name="abcde_d_title">D — Çap (Diameter)</string>
+    <string name="abcde_d_desc">6 mm\'den büyük (silgi ucu boyutu).</string>
+    <string name="abcde_e_title">E — Değişim (Evolving)</string>
+    <string name="abcde_e_desc">Zamanla büyüyor, renk/şekil değiştiriyorsa.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_security">Güvenlik</string>
+    <string name="settings_biometric_lock">Biyometrik Kilit</string>
+    <string name="settings_biometric_lock_desc">Parmak izi / yüz tanıma ile aç</string>
+    <string name="settings_appearance">Görünüm</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_system">Sistem</string>
+    <string name="settings_theme_light">Açık</string>
+    <string name="settings_theme_dark">Koyu</string>
+    <string name="settings_dynamic_color">Dinamik Renkler (Android 12+)</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_data">Veri ve Gizlilik</string>
+    <string name="settings_export">Verilerimi Dışa Aktar</string>
+    <string name="settings_delete">Tüm Verilerimi Sil</string>
+    <string name="settings_delete_confirm">Tüm tarama geçmişiniz ve profil bilgileriniz kalıcı olarak silinecek. Emin misiniz?</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_version">Sürüm</string>
+    <string name="settings_model_card">Model Kartı</string>
+    <string name="settings_open_source">Açık Kaynak Lisansları</string>
+
+    <!-- Common -->
+    <string name="action_yes">Evet</string>
+    <string name="action_no">Hayır</string>
+    <string name="action_cancel">Vazgeç</string>
+    <string name="action_retry">Tekrar Dene</string>
+    <string name="action_continue">Devam</string>
+    <string name="action_back">Geri</string>
+    <string name="action_done">Tamam</string>
+</resources>

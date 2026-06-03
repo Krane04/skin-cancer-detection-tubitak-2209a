@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MelonomScanner — Launcher Foreground
+  Konsept: Lezyon (asimetrik beyaz şekil) + kamera/tarama çerçeve köşeleri
+  Adaptive icon foreground katmanı: 108dp × 108dp viewport, güvenli alan 66dp merkez
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sol-üst tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M28,38 L28,28 L38,28" />
+
+    <!-- Sağ-üst tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M70,28 L80,28 L80,38" />
+
+    <!-- Sol-alt tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M28,70 L28,80 L38,80" />
+
+    <!-- Sağ-alt tarama köşesi -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M80,70 L80,80 L70,80" />
+
+    <!-- Merkez: asimetrik lezyon şekli (ABCDE: A = Asymmetry referansı) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,42
+                          C42,44 38,50 40,57
+                          C42,64 49,68 57,66
+                          C64,64 68,57 66,50
+                          C64,44 58,40 50,42 Z" />
+
+    <!-- Lezyon içinde pigment varyasyonu noktası 1 (koyu teal) -->
+    <path
+        android:fillColor="#064E4A"
+        android:pathData="M50,52 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z" />
+
+    <!-- Lezyon içinde pigment varyasyonu noktası 2 (koyu teal) -->
+    <path
+        android:fillColor="#064E4A"
+        android:pathData="M58,57 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 Z" />
+
+</vector>

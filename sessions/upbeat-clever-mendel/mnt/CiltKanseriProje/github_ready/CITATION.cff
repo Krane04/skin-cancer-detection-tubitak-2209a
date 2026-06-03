@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: >-
+  Skin Cancer Detection — TÜBİTAK 2209-A: Mobile Skin Cancer Screening System
+  with YOLO and Architectural Diversity Ensemble
+message: >-
+  If you use this software or its results in academic work, please cite it
+  using the metadata below.
+type: software
+authors:
+  - given-names: Erkan
+    family-names: Aktunç
+    email: aktuncerkan04@gmail.com
+    affiliation: Sakarya University, Faculty of Computer and Information Sciences
+identifiers:
+  - type: url
+    value: 'https://github.com/Krane04/skin-cancer-detection-tubitak-2209a'
+    description: GitHub repository
+repository-code: 'https://github.com/Krane04/skin-cancer-detection-tubitak-2209a'
+abstract: >-
+  This project implements a mobile skin cancer screening system developed
+  under the TÜBİTAK 2209-A research grant. The work presents the first
+  systematic comparison of YOLO model family classification variants
+  (YOLOv8m-cls, YOLO11m-cls and the January-2026 YOLO26m-cls) on dermoscopic
+  image classification, using a unified ISIC 2019 + ISIC 2020 + HAM10000
+  dataset (25,915 images, patient-level stratified split). A Diverse-5
+  ensemble combining the three YOLO variants with ConvNeXt-Tiny and Swin-Tiny
+  with mel-focused threshold tuning (θ=0.24) achieves a melanoma recall of
+  0.8723 on the test set, meeting the TÜBİTAK 2209-A target of ≥ 0.85.
+  Statistical analysis (McNemar tests with Bonferroni correction) reveals a
+  nuanced saturation hypothesis: within-architecture-family models are
+  statistically indistinguishable (p > 0.77), whereas between-architecture
+  comparisons (YOLO vs ConvNeXt, YOLO vs Swin) yield highly significant
+  differences (p < 10⁻⁴). An Android application using Jetpack Compose +
+  ONNX Runtime Mobile + Swin-Tiny FP16 ONNX model demonstrates on-device
+  real-time inference (~280 ms per image on Snapdragon 720G).
+keywords:
+  - skin cancer
+  - dermoscopy
+  - deep learning
+  - YOLO
+  - ConvNeXt
+  - Swin Transformer
+  - ISIC
+  - HAM10000
+  - melanoma detection
+  - mobile health
+  - ensemble learning
+  - ONNX
+  - threshold tuning
+  - McNemar test
+  - Android
+  - Jetpack Compose
+  - TÜBİTAK 2209-A
+license: MIT
+version: '1.0'
+date-released: '2026-06-15'

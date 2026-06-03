@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Uygulama hiçbir ağ isteği yapmaz; tüm yapay zeka çıkarımı cihaz üzerinde.
+  Yine de olası clear-text trafiğe karşı kapatıyoruz.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
